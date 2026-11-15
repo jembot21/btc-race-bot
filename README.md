@@ -6,7 +6,7 @@
 
 A deep-dip snapback bot for cbBTC/USDC minute bars. It waits flat until the
 latest close falls at least 1.60% below its trailing 150-bar mean and the
-fall has paused, then buys with the whole equity. It sells on a +0.90%
+fall has paused, then buys with the whole equity. It sells on a +0.70%
 take-profit, on a recovery to the mean worth at least +1.00%, on a trailing
 stop (armed at +0.60%, giving back 0.30%), on a -2.00% stop loss, or after
 five hours in the trade. If half the window passes with no trade at all, a
