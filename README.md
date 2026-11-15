@@ -15,8 +15,8 @@ race out. All arithmetic is integer-only: no clock, no randomness, the
 same bars always give the same orders.
 
 On the kit's dev window (the 24 hours before the bounty opened) it made
-four round trips, all winners, for a net PnL of +21.44 USDC on the 1,000
-USDC paper start, with a 1.56% maximum drawdown.
+four round trips, all winners, for a net PnL of +24.36 USDC on the 1,000
+USDC paper start, with a 1.37% maximum drawdown.
 
 `main.ts` is the strategy; the agent-fun/bars-replay/v1 wire protocol is
 spoken by the kit's shim, vendored unchanged under `vendor/`.
